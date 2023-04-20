@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 * */
 @SpringBootApplication
 public class InternetinisSkaiciuotuvasApplication {
-
 	public static void main(String[] args) {
 		/* Programos kontrolė deleguojama statiniam klasės metodui run
 		nurodant aplikacijos šakninį(root) komponentą

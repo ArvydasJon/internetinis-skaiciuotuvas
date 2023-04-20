@@ -34,6 +34,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Reikia, kad projektas veiktu su jsp (Jva server page) failais    -->
+		<dependency>
+	<groupId>org.apache.tomcat.embed</groupId>
+	<artifactId>tomcat-embed-jasper</artifactId>
+			<scope> runtime</scope>
+		</dependency>
+		<!--Jeigu nepridėsime, gausime javax.ServletException -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
