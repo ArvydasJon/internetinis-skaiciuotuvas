@@ -16,5 +16,4 @@ public class InternetinisSkaiciuotuvasApplication {
 		 */
 		SpringApplication.run(InternetinisSkaiciuotuvasApplication.class, args);
 	}
-
 }
